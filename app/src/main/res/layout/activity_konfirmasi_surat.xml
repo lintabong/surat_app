@@ -19,9 +19,9 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@mipmap/nopic"/>
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:src="@mipmap/logo"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
