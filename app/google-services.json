@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "51980416332",
+    "firebase_url": "https://suratdb-a650d-default-rtdb.firebaseio.com",
+    "project_id": "suratdb-a650d",
+    "storage_bucket": "suratdb-a650d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51980416332:android:8e3d571c7f87dbf41f8be9",
+        "android_client_info": {
+          "package_name": "com.example.suratapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51980416332-d5gkp629j1locmh224qu5bb2odb8t01k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMofq69XSn4Lii0B6VZgyz8XO3NcHRGNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51980416332-d5gkp629j1locmh224qu5bb2odb8t01k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahDataUserActivity">
+
+    <LinearLayout
+        android:id="@+id/logo1Container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/nopic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strmikstikom"
+            android:textSize="9pt"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/kelola"
+                android:textSize="9pt"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userDataContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/logo1Container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/addUsername"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_style_0"
+            android:hint="@string/username"/>
+
+        <EditText
+            android:id="@+id/addPassword"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_style_0"
+            android:hint="@string/password"/>
+
+        <EditText
+            android:id="@+id/addFullName"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_style_0"
+            android:hint="@string/fullName"/>
+
+        <EditText
+            android:id="@+id/addPosition"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_style_0"
+            android:hint="@string/position"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/butSimpanUser"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:text="@string/saveUser"/>
+
+            <Button
+                android:id="@+id/butBatalUser"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:text="@string/cancelUser"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

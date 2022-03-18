@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/loginContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@mipmap/nopic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/welocmeText"
+            android:textSize="10pt"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/UsernameLoginInput"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_style_0"
+            android:hint="@string/username"/>
+
+        <EditText
+            android:id="@+id/PasswordLoginInput"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/input_style_0"
+            android:hint="@string/password"/>
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="30dp"
+            android:text="@string/login"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

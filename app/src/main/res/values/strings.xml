@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SuratApp</string>
+
+    <string name="welocmeText">STMIK-Ilkom Indonesia</string>
+    <string name="username">Username</string>
+    <string name="name">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="department">Jurusan</string>
+    <string name="lecture">Dosen PA</string>
+    <string name="reason">Alasan cuti</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Keluar</string>
+
+    <string name="baak">BAAK</string>
+    <string name="wk1">Wakil Ketua 1</string>
+    <string name="student">Mahasiswa</string>
+
+    <string name="mailConfirm">Konfirmasi Surat Masuk</string>
+
+    <string name="strmikstikom">STMIK-STIKOM INDONESIA</string>
+    <string name="kelola">Kelola Data User</string>
+
+    <string name="suratMasuk">Surat Masuk</string>
+    <string name="suratKeluar">Surat Keluar</string>
+    <string name="statusSurat">Status Surat</string>
+    <string name="pengajuan">Pengajuan</string>
+    <string name="pembatalan">Pembatalan Pengagujan</string>
+    <string name="disposisi">Disposisi Surat</string>
+    <string name="laporan">Laporan</string>
+    <string name="user">User</string>
+
+    <string name="tambah">Tambah</string>
+    <string name="fullName">Nama Lengkap</string>
+    <string name="position">Jabatan</string>
+
+    <string name="saveUser">Simpan</string>
+    <string name="cancelUser">Batal</string>
+
+    <string name="SubmisionMailForm">Form Pengajuan Surat</string>
+
+</resources>
