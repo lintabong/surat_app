@@ -136,11 +136,15 @@
                     android:padding="10dp">
 
                     <Button
+                        android:id="@+id/submissionButton"
                         android:layout_width="80dp"
-                        android:layout_height="40dp"/>
+                        android:layout_height="40dp"
+                        android:text="@string/submit"/>
                     <Button
+                        android:id="@+id/submissionCancel"
                         android:layout_width="80dp"
-                        android:layout_height="40dp"/>
+                        android:layout_height="40dp"
+                        android:text="@string/batal"/>
                 </LinearLayout>
             </LinearLayout>
 
