@@ -15,6 +15,9 @@
     <string name="baak">BAAK</string>
     <string name="wk1">Wakil Ketua 1</string>
     <string name="student">Mahasiswa</string>
+    
+    <string name="submit">Submit</string>
+    <string name="batal">Batal</string>
 
     <string name="mailConfirm">Konfirmasi Surat Masuk</string>
 
